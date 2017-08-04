@@ -1,0 +1,28 @@
+.MainLayout {
+  text-align: center;
+}
+
+.MainLayout__logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.MainLayout__header {
+  background-color: #E6E6FA;
+  height: 150px;
+  padding: 20px;
+  color: #00BFFF;
+}
+
+.MainLayout__intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(-90deg); }
+  to { transform: rotate(90deg); }
+}
+
+#list{
+  text-align: left;
+}
